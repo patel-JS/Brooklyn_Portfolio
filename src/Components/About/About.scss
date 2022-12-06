@@ -1,0 +1,73 @@
+.app__about {
+    padding: 12rem;
+    flex-direction: row-reverse;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    box-shadow: 0px 36px 105px 0px rgba(43, 56, 76, 0.1);
+
+
+    .app__about--bio {
+        display: flex;
+        gap: 3.2rem;
+        flex-direction: column;
+        max-width: 53rem;
+
+        .app__about-buttons {
+            display: flex;
+            gap: 2.4rem;
+        }
+
+    }
+
+}
+
+.app__about--image {
+    position: relative;
+
+    img{
+        width: 100%;
+        height: 50%;
+    }
+
+    .app__about--brands {
+        position: absolute;
+        background-color: #fff;
+        bottom: -7%;
+        left: 15%;
+        border-radius: .4rem;
+        padding: 1.2rem;
+        display: flex;
+        gap: 1rem;
+        box-shadow: 0px 12px 64px 0px rgba(43, 56, 76, 0.12);
+        z-index: 9;
+
+        .fa-brands {
+            padding: 1.5rem;
+        }
+    }
+}
+
+
+@media (max-width: 62em) {
+
+    h2 {
+        font-size: 2.2rem;
+        line-height: 1.2;
+    }
+
+    .app__about{
+        padding: 0;
+        gap: 5rem;
+
+        .app__about-buttons{
+            a{
+                font-size: 1.2rem;
+                display: inline-block;
+            }
+        }
+    }
+
+
+}

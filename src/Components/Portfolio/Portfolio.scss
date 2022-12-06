@@ -1,0 +1,75 @@
+.app__portfolio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .app__portfolio-heading {
+        max-width: 58rem;
+        margin: 0 auto;
+        text-align: center;
+        margin-bottom: 7rem;
+
+        h1 {
+            padding-bottom: 2.4rem;
+        }
+    }
+
+    .app__portfolio-data {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        gap: 2.4rem;
+        margin-bottom: 5rem;
+
+        .data-card {
+            box-shadow: 0px 12px 64px 0px rgba(28, 25, 25, 0.12);
+            border-radius: .8rem;
+
+            img {
+                max-width: 42.4rem;
+                height: auto;
+
+            }
+
+            .card-content {
+                margin: 3.2rem;
+                max-width: 36rem;
+
+                .label {
+                    margin-bottom: .4rem;
+                }
+
+                .title {
+                    margin-bottom: 1.2rem;
+                }
+
+                .text {
+                    margin-bottom: 2rem;
+                }
+            }
+        }
+    }
+}
+
+
+
+@media (max-width: 62em) {
+
+
+    .app__portfolio-data {
+        padding: 0 1.2rem;
+        max-width: 78rem;
+
+        .data-card {
+            img {
+                width: 24.4rem;
+                height: auto;
+
+            }
+
+        }
+
+    }
+
+
+}

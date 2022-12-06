@@ -1,0 +1,32 @@
+.app__brands {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.4rem;
+    margin: 10rem 0;
+    
+    .app__brands-heading {
+        text-align: center;
+        max-width: 58rem;
+
+        h1{
+            margin-bottom: 2.4rem;
+        }
+    }
+
+    .app__brands-logo{
+        display: flex;
+        gap: 2.4rem;
+        justify-content: space-between;
+
+        img{
+            filter: grayscale(100%);
+            padding: 8rem 3rem;
+            transition: all 0.3s ease-in-out;
+
+            &:hover{
+            filter: grayscale(0%);
+            }
+        }
+    }
+}

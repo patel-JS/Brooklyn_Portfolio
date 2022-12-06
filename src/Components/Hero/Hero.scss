@@ -1,0 +1,49 @@
+
+.app__hero{
+    margin-bottom: 20rem;
+    padding-top: 12rem;
+    display: flex;
+    justify-content: space-between;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    
+    .app__hero--content{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        gap: 14rem;
+        max-width: 50%;
+        
+        p{
+            color: #556070;
+            margin-bottom: 2.4rem;
+        }
+
+    }
+
+    .app__hero--table{
+        display: flex;
+        gap: 1.2rem;
+
+        .app__table--data{
+            text-align: center;
+            padding: 1.2rem 1.2rem;
+            background-color: #F6EBFE;
+            h3{
+                color: #424E60;
+                padding-bottom: .8rem;
+            }
+        }
+    }
+
+    img{
+        display: flex;
+    align-items: right;
+    align-content: flex-end;
+    width: 30%;
+    height: 50%;
+    }
+}
+

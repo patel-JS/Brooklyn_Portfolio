@@ -1,0 +1,40 @@
+.app__profession {
+    margin: 15rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .app__profession-heading {
+        max-width: 53rem;
+
+        h1 {
+            margin-bottom: 2.4rem;
+        }
+
+        p {
+            margin-bottom: 5rem;
+        }
+
+    }
+
+    .app__profession-data {
+        display: flex;
+        flex-direction: column;
+        gap: 2.4rem;
+
+        .profession-card {
+            max-width: 65rem;
+            border-radius: .6rem;
+            padding: 3.2rem;
+            border-left: 0px solid #A53DFF;
+            transition: all 0.3s linear;
+
+            &:hover {
+                border-left: 5px solid #A53DFF;
+                box-shadow: 10px 32px 96px 0px rgba(0, 0, 0, 0.16);
+
+            }
+        }
+    }
+
+}

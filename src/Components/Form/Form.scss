@@ -1,0 +1,125 @@
+
+.app__form {
+    z-index: 111;
+    // position: relative;
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 9rem;
+    border-radius: 1.5rem;
+    box-shadow: 10px 59px 124px 0px rgba(0, 0, 0, 0.12);
+    gap: 5rem;
+    margin-top: 10rem;
+
+    .app__cotact-data {
+
+        .contact-heading {
+            max-width: 48rem;
+
+            h1 {
+                margin-bottom: 1.6rem;
+            }
+        }
+
+        .contact-cards {
+            margin-top: 3.5rem;
+            gap: 1.2rem;
+            display: flex;
+            flex-direction: column;
+
+            .card-data {
+                display: flex;
+                align-items: center;
+                gap: 1.3rem;
+                max-width: 34rem;
+                padding: 2.4rem 10rem 2.4rem 2.4rem;
+                transition: all 0.3s ease-in-out;
+
+                i {
+                    padding: 1.2rem;
+                    color: #A53DFF;
+                    background-color: #F6EBFF;
+                    border-radius: 0.4rem;
+                    transition: all 0.3s ease-in-out;
+
+                }
+
+                &:hover {
+                    box-shadow: 10px 32px 96px 0px rgba(0, 0, 0, 0.16);
+                    border-radius: 1rem;
+
+                    i {
+                        background-color: #A53DFF;
+                        color: #F6EBFF;
+                    }
+                }
+
+            }
+
+            .card-icons {
+                margin-top: 3.5rem;
+                display: flex;
+                gap: 1.2rem;
+
+                i {
+                    padding: 1.5rem;
+                    color: #A53DFF;
+                    transition: all 0.3s ease-in-out;
+
+                    &:hover {
+                        background-color: #A53DFF;
+                        color: #fff;
+                        border-radius: 0.4rem;
+                    }
+                }
+            }
+        }
+    }
+
+    .app__cotact-form {
+        max-width: 56rem;
+        // gap: 5rem;
+
+        p {
+            margin-bottom: 5rem;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 3rem;
+
+            input:not([type='submit']) {
+                padding-bottom: 1.4rem;
+                border: transparent;
+                border-bottom: 1px solid #E5E8EB;
+                transition: all 0.3s ease-in-out;
+                outline: none;
+
+                
+
+                &::placeholder {
+                    color: #697484;
+                    font-size: 1.8rem;
+                    line-height: 24px;
+                    transition: all 0.3s ease-in-out;
+                }
+
+
+                &:hover {
+                    border-bottom: 1px solid #A53DFF;
+
+
+                    &::placeholder {
+                        color: #A53DFF;
+                    }
+
+                }
+            }
+
+        }
+
+       
+    }
+
+    }

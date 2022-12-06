@@ -1,0 +1,42 @@
+.app__testimonials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.4rem;
+
+    .app__testimonials-heading {
+        text-align: center;
+        max-width: 58rem;
+
+        h1 {
+            margin-bottom: 2.4rem;
+        }
+    }
+
+    .app__testimonials-reviews {
+        margin-top: 7rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+
+        .reviews {
+            margin-bottom: 2.4rem;
+        }
+
+        h5 {
+            margin-bottom: .8rem;
+        }
+    }
+
+    .swiper-pagination {
+        // color: #A53DFF;
+    }
+
+    .swiper-pagination-bullet-active {
+        background-color: #A53DFF;
+        // width: 30%;
+    }
+
+    
+}

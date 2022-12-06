@@ -1,0 +1,44 @@
+
+.app__footer{
+   
+    margin-top: 8rem;
+    background-color: #2B384C;
+
+    .app__container{
+
+        display: flex;
+        justify-content: space-between;
+        padding: 19rem 0 8rem 0;
+       
+
+        ul{
+            display: flex;
+            gap: 2.4rem;
+        }
+    }
+}
+
+@media (max-width: 62em){
+
+    .app__container{
+
+
+        img{
+            max-width: 15rem;
+            height: auto;
+
+        }
+
+        ul{
+            gap: 1rem !important;
+
+            li{
+                a{
+                    font-size: 1.4rem;
+                }
+            }
+        }
+
+      
+    }
+}

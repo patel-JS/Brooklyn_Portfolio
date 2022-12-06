@@ -1,0 +1,48 @@
+nav {
+    justify-content: space-between;
+    align-items: center;
+    height: 9.6rem;
+
+    img{
+        width: 15rem;
+        height: auto;
+
+    }
+}
+
+.app__navbar--links {
+    align-items: center;
+    gap: 2rem;
+
+    a{
+        color: #333;
+    }
+
+    li{
+
+        &:last-child {
+            padding: 1.2rem 2.4rem;
+            border-radius: .4rem;
+            background-color: #A53DFF;
+            transition: all 0.3s ease-in-out;
+            border: 1px solid transparent;
+            cursor: pointer;
+            
+            a{
+                color: #fff;
+            }
+
+        &:hover{
+            border: 1px solid #A53DFF;
+            background-color: transparent;
+            
+            a{
+                color: #A53DFF;
+            }
+}
+
+        }
+
+
+    }
+}
