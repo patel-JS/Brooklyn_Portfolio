@@ -6,7 +6,7 @@ import './Works.scss'
 const Works = () => {
     return (
         <>
-            <section className='app__works'>
+            <section className='app__works' id='Process'  > 
                 <div className="app__works-text">
                     <h1>Work Process</h1>
                     <p className='large-400'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla purus arcu, varius eget velit non, laoreet imperdiet orci. Mauris ultrices eget lorem ac vestibulum. Suspendis imperdiet,

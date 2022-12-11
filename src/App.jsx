@@ -19,7 +19,7 @@ function App() {
   return (
     <>
     <div className="container">
-      <Navbar />
+      <Navbar  />
       <Hero />
       <About />
       <Works />

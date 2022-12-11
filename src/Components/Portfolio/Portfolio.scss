@@ -73,3 +73,28 @@
 
 
 }
+
+
+@media (max-width: 37em) {
+    .app__portfolio-data {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr) !important;
+        grid-template-rows: repeat(3, 1fr) !important;
+    }
+}
+
+@media (max-width: 24em) {
+    .app__portfolio-data {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center;
+        text-align: center;
+        
+        img{
+            width: 100% !important;
+            // border: 1px solid red;
+        }
+        // grid-template-columns: repeat(2, 1fr) !important;
+        // grid-template-rows: repeat(3, 1fr) !important;
+    }
+}

@@ -24,6 +24,8 @@ import research from './Research.svg'
 import design from './Design.svg'
 import analyze from './Analyze.svg'
 import launch from './Launch.svg'
+import menu from './menu.svg'
+import close from './close.svg'
 
 
 
@@ -53,7 +55,9 @@ export {
     design,
     analyze,
     launch,
-    logoLight
+    logoLight,
+    menu,
+    close
 
 } 
 

@@ -3,22 +3,29 @@ nav {
     align-items: center;
     height: 9.6rem;
 
-    img{
+    img {
         width: 15rem;
         height: auto;
 
     }
+
+    .menu {
+        display: none;
+    }
+
 }
+
+
 
 .app__navbar--links {
     align-items: center;
     gap: 2rem;
 
-    a{
+    a {
         color: #333;
     }
 
-    li{
+    li {
 
         &:last-child {
             padding: 1.2rem 2.4rem;
@@ -27,22 +34,94 @@ nav {
             transition: all 0.3s ease-in-out;
             border: 1px solid transparent;
             cursor: pointer;
-            
-            a{
+
+            a {
                 color: #fff;
             }
 
-        &:hover{
-            border: 1px solid #A53DFF;
-            background-color: transparent;
-            
-            a{
-                color: #A53DFF;
+            &:hover {
+                border: 1px solid #A53DFF;
+                background-color: transparent;
+
+                a {
+                    color: #A53DFF;
+                }
             }
-}
 
         }
 
 
     }
+}
+
+
+@media (max-width: 37em) {
+
+    .app__navbar {
+        .app__navbar-logo {
+            width: 15rem;
+            height: auto;
+        }
+
+        .app__navbar--links {
+            display: none;
+
+        }
+
+        .menu {
+            .hamburger-icon{
+
+                width: 5rem;
+                height: auto;
+                color: #fff;
+                background-color: #A53DFF;
+                padding: 1rem;
+                border-radius: 5rem;
+            }
+
+         
+        }
+
+        .app__navbars--links {
+            display: block;
+            position: absolute;
+            top: .01%;
+            right: .1%;
+            padding: 10rem;
+            gap: 1.5rem;
+            display: flex;
+            flex-direction: column;
+            padding-top: 10+5rem;
+            background-color: #A53DFF;
+            border-radius: .4rem;
+
+            a {
+                color: #fff;
+                font-size: 1.8rem;
+                font-weight: 400;
+
+            }
+
+        }
+
+
+        .menu {
+            display: block;
+
+            .close-icon {
+                top: 5+2+2%;
+                left: 65%;
+                fill: #A53DFF;
+                position: absolute;
+                height: auto;
+                width: 5rem;
+                height: auto;
+                background-color: #fff;
+                    padding: 1rem;
+                    border-radius: 5rem;
+            }
+        }
+    }
+
+
 }

@@ -38,3 +38,20 @@
     }
 
 }
+
+@media (max-width: 49em) {
+    .app__profession {
+        display: flex;
+        flex-direction: column;
+        gap: 6rem;
+    }
+}
+
+
+@media (max-width: 37em){
+    .app__profession{
+        display: flex;
+        flex-direction: column;
+        gap: 6rem;
+    }
+}

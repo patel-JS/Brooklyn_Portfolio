@@ -3,7 +3,6 @@ import './Hero.scss'
 import { heroText, achievement } from '../../Constants'
 import { heroImage } from '../../assets'
 
-
 const Hero = () => {
     return (
         <>
@@ -11,7 +10,7 @@ const Hero = () => {
                 <div className="app__hero--content">
                     <div className="app__hero--bio">
                         <p className='large-400'>{heroText}</p>
-                        <a href="#" className='btn-primary'>Say Hello</a>
+                        <a href="#Contact" className='btn-primary'>Say Hello</a>
                     </div>
                     <div className="app__hero--table">
                         <div className="app__table--data">

@@ -4,29 +4,66 @@
     align-items: center;
     gap: 2.4rem;
     margin: 10rem 0;
-    
+
     .app__brands-heading {
         text-align: center;
         max-width: 58rem;
 
-        h1{
+        h1 {
             margin-bottom: 2.4rem;
         }
     }
 
-    .app__brands-logo{
+    .app__brands-logo {
         display: flex;
         gap: 2.4rem;
         justify-content: space-between;
 
-        img{
+        img {
+            max-width: 25rem;
+            // height: auto;
             filter: grayscale(100%);
             padding: 8rem 3rem;
             transition: all 0.3s ease-in-out;
 
-            &:hover{
-            filter: grayscale(0%);
+            &:hover {
+                filter: grayscale(0%);
             }
+        }
+    }
+}
+
+
+
+
+@media (max-width: 62em) {
+    .app__brands-logo {
+        img {
+            width: 15rem;
+            height: auto;
+        }
+    }
+}
+
+
+@media (max-width: 49em) {
+    .app__brands-logo {
+        gap: 0.1rem  !important;
+        img {
+            width: 14rem;
+            height: auto;
+        }
+    }
+}
+
+
+@media (max-width: 37em) {
+    .app__brands-logo {
+        gap: 0.1rem !important;
+
+        img {
+            width: 12rem;
+            height: auto;
         }
     }
 }

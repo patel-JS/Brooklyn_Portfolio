@@ -19,7 +19,7 @@ import './Blog.scss'
 
 const Blog = () => {
     return (
-        <section className='app__blog'>
+        <section className='app__blog' id='Blog'  >
             <div className="app__blog-heading">
                 <h1>Blog</h1>
                 <p className="large-400">There are many variations of passages of Lorem Ipsum available,
@@ -30,7 +30,32 @@ const Blog = () => {
 
 
 
-                <Swiper pagination={true} modules={[Pagination]} slidesPerView={4} spaceBetween={24} className="mySwiper container"  >
+                <Swiper pagination={true} modules={[Pagination]} slidesPerView={4} spaceBetween={24}  
+                    breakpoints={{
+                        380: {
+                            width: 380,
+                            slidesPerView: 1,
+                        },
+
+                        480: {
+                            width: 480,
+                            slidesPerView: 3,
+                        },
+
+                        576: {
+                            width: 576,
+                            slidesPerView: 3,
+                        },
+                        768: {
+                            width: 768,
+                            slidesPerView: 4,
+                        },
+                        960: {
+                            width: 960,
+                            slidesPerView: 2,
+                        }
+                    }}
+                className="mySwiper container"  >
                     <SwiperSlide>
                         <div className="data-card">
                             <img src={blog1} alt="work" />

@@ -8,7 +8,9 @@ import './About.scss'
 
 const About = () => {
     return (
-        <section className='app__about'>
+        <section className='app__about' id='About' >
+
+            
             <div className="app__about--content">
                 <div className="app__about--bio">
                     <h2>{about.head}</h2>
@@ -42,7 +44,7 @@ const About = () => {
                 </div>
             </div>
 
-        </section>
+            </section>
     )
 }
 

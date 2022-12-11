@@ -16,7 +16,7 @@ import './Testimonials.scss'
 export const Testimonials = () => {
     return (
 
-        <section className='app__testimonials'>
+        <section className='app__testimonials'  >
             <div className="app__testimonials-heading">
                 <h1>Testimonial</h1>
                 <p className="large-400">There are many variations of passages of Lorem Ipsum available,

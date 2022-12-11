@@ -71,3 +71,13 @@
         background-color: #A53DFF;
     }
 }
+
+
+
+
+@media (max-width: 49em){
+    .app__form{
+        display: flex;
+        flex-direction: column;
+    }
+}

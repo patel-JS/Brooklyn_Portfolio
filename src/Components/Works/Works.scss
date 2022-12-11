@@ -106,8 +106,28 @@
 
 @media (max-width: 49em) {
 
-    .app__works-data {
+    .app__works {
+        display: flex;
         flex-direction: column;
 
     }
+}
+
+@media (max-width: 37em) {
+
+    .app__works {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+
+@media (max-width: 24em) {
+
+    .app__works{
+        display: flex;
+        flex-direction: column;
+    }
+ 
 }

@@ -1,44 +1,132 @@
+.app__footer {
 
-.app__footer{
-   
     margin-top: 8rem;
     background-color: #2B384C;
 
-    .app__container{
+    .app__container {
 
         display: flex;
         justify-content: space-between;
         padding: 19rem 0 8rem 0;
-       
 
-        ul{
+
+        ul {
             display: flex;
             gap: 2.4rem;
         }
     }
 }
 
-@media (max-width: 62em){
+@media (max-width: 62em) {
 
-    .app__container{
+    .app__container {
 
-
-        img{
+        img {
             max-width: 15rem;
             height: auto;
 
         }
 
-        ul{
+        ul {
             gap: 1rem !important;
 
-            li{
-                a{
+            li {
+                a {
                     font-size: 1.4rem;
                 }
             }
         }
 
-      
+
     }
+}
+
+@media (max-width: 49em) {
+
+    .app__container {
+
+        img {
+            max-width: 10rem;
+            height: auto;
+
+        }
+
+        ul {
+            gap: 1rem !important;
+
+            li {
+                a {
+                    font-size: 1.2rem;
+                }
+            }
+        }
+
+        p {
+            font-size: 1.4rem;
+        }
+
+
+    }
+}
+
+
+@media (max-width: 37em) {
+    .app__container {
+
+        img {
+            max-width: 8rem;
+            height: auto;
+
+        }
+
+        ul {
+            gap: .5rem !important;
+
+            li {
+                a {
+                    font-size: 1.2rem;
+                }
+            }
+        }
+
+        p {
+            font-size: 1.2rem;
+        }
+
+
+    }
+}
+
+
+@media (max-width: 24em) {
+    .app__container {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+
+        img {
+            max-width: 15rem;
+            height: auto;
+
+        }
+
+        ul {
+            gap: 1.5rem !important;
+
+            li {
+                a {
+                    font-size: 1.4rem;
+                }
+            }
+        }
+
+        p {
+            font-size: 1.6rem;
+        }
+
+
+    }
+
 }

@@ -8,7 +8,7 @@ import './Portfolio.scss'
 const Portfolio = () => {
     return (
         <>
-            <section className='app__portfolio'>
+            <section className='app__portfolio' id='Portfolio'  >
                 <div className="app__portfolio-heading">
                     <h1>Portfolio</h1>
                     <p className="large-400">There are many variations of passages of Lorem Ipsum available,
